@@ -1,0 +1,191 @@
+
+
+
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~
+$ cd kindeproject1
+bash: cd: kindeproject1: No such file or directory
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~
+$ cd Desktop
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop
+$ cd $ cd de
+bash: cd: too many arguments
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop
+$ cd kindeproject1
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1
+$ ls
+index.html
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1
+$ touch index.html
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1
+$ code
+
+
+#1. Create a directory named middle_earth.
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1
+$ mkdir middle_earth
+
+#2. Create a folder named the_shire inside middle_earth.
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1
+$ cd middle_earth
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth
+$ mkdir the_shire
+
+#3. Create a folder named frodo inside the_shire.
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth
+$ cd the_shire
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/the_shire
+$ mkdir frodo
+
+#4. Give Frodo the ring of power by creating a file named one.ring inside the_shire, then move it to the directory frodo.
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/the_shire
+$ touch one.ring
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/the_shire
+$ ls
+frodo/  one.ring
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth
+$ cd the_shire
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/the_shire
+$ ls
+frodo/  one.ring
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/the_shire
+$ mv one.ring frodo/
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/the_shire
+$ ls
+frodo/
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/the_shire
+$ ls
+frodo/
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/the_shire
+$ ls frodo/
+one.ring
+
+#5 Create a folder named mordor inside middle_earth.
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1
+$ cd middle_earth
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth
+$ mkdir mordor
+
+#6 Create a folder named mount_doom inside mordor.
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth
+$ cd mordor
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/mordor
+$ mkdir mount_doom
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/mordor
+$ ls
+mount_doom/
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/mordor
+$ cd ../../
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1
+$ ls
+index.html  middle_earth/
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1
+$ cd middle_earth
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth
+$ ls
+mordor/  the_shire/
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth
+$ ls the_shire
+frodo/
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth
+$ ls
+mordor/  the_shire/
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth
+$ ls the_shire
+frodo/
+
+#7Move frodo from the_shire to mordor.
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth
+$ mv the_shire/frodo mordor
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth
+$ ls
+mordor/  the_shire/
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth
+$ ls mordor
+frodo/  mount_doom/
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth
+$ ls
+mordor/  the_shire/
+
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth
+$ ls mordor/mount_doom
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth
+$ cd mordor
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/mordor
+$ ls
+frodo/  mount_doom/
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/mordor
+$ cd mount_doom
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/mordor/mount_doom
+$ ls
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/mordor/mount_doom
+$ cd ..
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/mordor
+$ ls
+frodo/  mount_doom/
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/mordor
+$ ls frodo
+one.ring
+
+
+#8 Cast the ring into the fire by moving one.ring to mount_doom.
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/mordor
+$ mv frodo/one.ring mount_doom
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/mordor
+$ ls
+frodo/  mount_doom/
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/mordor
+$ ls mount_doom
+one.ring
+#9Destroy one.ring using rm.
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/mordor
+$ rm mount_doom/one.ring
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/mordor
+$ ls
+frodo/  mount_doom/
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/mordor
+$ cd mount_doom
+
+Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1/middle_earth/mordor/mount_doom
+$
