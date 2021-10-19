@@ -22,7 +22,7 @@ index.html
 
 Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1
 $ touch index.html
-
+code.
 Kinde@DESKTOP-HD0PV0C MINGW64 ~/Desktop/kindeproject1
 $ code
 
